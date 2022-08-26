@@ -1,0 +1,33 @@
+.clients-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.clients-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin-top: 50px;
+}
+.clients-logo-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--social-link-color);
+  color: var(--social-link-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border 250ms var(--transform-function),
+    color 250ms var(--transform-function);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+  }
+}
+
+.clients-logo-icon {
+  fill: currentColor;
+}
